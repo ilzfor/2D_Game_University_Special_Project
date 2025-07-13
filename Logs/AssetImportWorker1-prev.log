@@ -1,0 +1,289 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.10f1 (bcebec703747) revision 12381164'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'zh' Physical Memory: 65437 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.2.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/dt790/Desktop/知高栫專案檔
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+61043
+Successfully changed project path to: C:/Users/dt790/Desktop/知高栫專案檔
+C:/Users/dt790/Desktop/知高栫專案檔
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [964068] Host "[IP] 26.90.9.210 [Port] 0 [Flags] 2 [Guid] 3013371434 [EditorId] 3013371434 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PHMTR6E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [964068] Host "[IP] 26.90.9.210 [Port] 0 [Flags] 2 [Guid] 3013371434 [EditorId] 3013371434 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PHMTR6E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 18.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.10f1 (bcebec703747)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/dt790/Desktop/知高栫專案檔/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2487)
+    Vendor:   NVIDIA
+    VRAM:     12110 MB
+    Driver:   32.0.15.6081
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010787 seconds.
+- Loaded All Assemblies, in  0.397 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.360 seconds
+Domain Reload Profiling:
+	ReloadAssembly (230ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (158ms)
+				TypeCache.Initialize (157ms)
+					TypeCache.ScanAssembly (154ms)
+				ResolveRequiredComponents (1ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (275ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (10ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.703 seconds
+Refreshing native plugins compatible for Editor in 5.77 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-知高栫
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.848 seconds
+Domain Reload Profiling:
+	ReloadAssembly (234ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		LoadAllAssembliesAndSetupDomain (465ms)
+			LoadAssemblies (241ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (286ms)
+				TypeCache.Initialize (264ms)
+					TypeCache.ScanAssembly (259ms)
+				ResolveRequiredComponents (3ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (651ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (517ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 6.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2579 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (43.7 KB). Loaded Objects now: 3068.
+Memory consumption went from 435.8 MB to 435.7 MB.
+Total: 6.375700 ms (FindLiveObjects: 0.458000 ms CreateObjectMapping: 0.113200 ms MarkObjects: 5.364100 ms  DeleteObjects: 0.438400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 50832.849439 seconds.
+  path: Assets/知高音效/嘎吱聲/CREAK_Wood_Hollow_01_mono.wav
+  artifactKey: Guid(9e3529c84a7fe6546859eee787b71961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/知高音效/嘎吱聲/CREAK_Wood_Hollow_01_mono.wav using Guid(9e3529c84a7fe6546859eee787b71961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20213a330c2f65a9bb39d553853c2044') in 0.110188 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/知高音效/嘎吱聲/CREAK_Door_01_mono.wav
+  artifactKey: Guid(6ed3fe938cc038a4db2da2090a458401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/知高音效/嘎吱聲/CREAK_Door_01_mono.wav using Guid(6ed3fe938cc038a4db2da2090a458401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae49a16918e17e81828842a89539bd31') in 0.012947 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/知高音效/嘎吱聲/CREAK_Wood_Bright_Short_mono.wav
+  artifactKey: Guid(ef5dbd57f08e5c640a850558a33d3d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/知高音效/嘎吱聲/CREAK_Wood_Bright_Short_mono.wav using Guid(ef5dbd57f08e5c640a850558a33d3d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25beef62659e7e20b6860d850adbc4f2') in 0.012631 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/知高音效/嘎吱聲/CREAK_Metal_Heavy_mono.wav
+  artifactKey: Guid(7f4b917e74d44ea46adf99aa701bf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/知高音效/嘎吱聲/CREAK_Metal_Heavy_mono.wav using Guid(7f4b917e74d44ea46adf99aa701bf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87246bc5e8d50ba210f4e41dffe2e3ff') in 0.011775 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/知高音效/嘎吱聲/CREAK_Door_07_mono.wav
+  artifactKey: Guid(0b5b5819801f8b44bb6e094f91a5abb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/知高音效/嘎吱聲/CREAK_Door_07_mono.wav using Guid(0b5b5819801f8b44bb6e094f91a5abb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ecfbbe731315a96bae7247599d53f4d') in 0.012562 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/知高音效/嘎吱聲/CREAK_Wood_01_mono.wav
+  artifactKey: Guid(c37da79b79bc5b042b841a271bf17066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/知高音效/嘎吱聲/CREAK_Wood_01_mono.wav using Guid(c37da79b79bc5b042b841a271bf17066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34bae50185a1cf025cfbdb6bffeafd0') in 0.013284 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/知高音效/嘎吱聲/CREAK_Door_09_mono.wav
+  artifactKey: Guid(078047e16d61f7c41a7e1ff101903488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/知高音效/嘎吱聲/CREAK_Door_09_mono.wav using Guid(078047e16d61f7c41a7e1ff101903488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ae652a1d83413ea0072424cdf226da') in 0.014241 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/知高音效/嘎吱聲/CREAK_Wood_Tree_Creak_06_Long_Subtle_mono.wav
+  artifactKey: Guid(41afa1348b61b0049bec85d66819743b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/知高音效/嘎吱聲/CREAK_Wood_Tree_Creak_06_Long_Subtle_mono.wav using Guid(41afa1348b61b0049bec85d66819743b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18aa4c91f87b375379ff4f5b1c43030f') in 0.012743 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 187.525562 seconds.
+  path: Assets/調色盤/2.asset
+  artifactKey: Guid(6d894fe60486073438918c97f80a2230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/2.asset using Guid(6d894fe60486073438918c97f80a2230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bd4b3e663b8c620bb63492708abca5') in 0.011054 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/調色盤/11.asset
+  artifactKey: Guid(b0c9e8cf0fd785f4cbfc6c1cbcb087e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/11.asset using Guid(b0c9e8cf0fd785f4cbfc6c1cbcb087e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22056da520802040c2cb15a70547a2f1') in 0.002454 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/調色盤/Bush (1).asset
+  artifactKey: Guid(79c71fcb72615624ab0fb5efb977b56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/Bush (1).asset using Guid(79c71fcb72615624ab0fb5efb977b56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f853184c7fec42f875497b626e8c5b') in 0.001566 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/調色盤/Cactus (3).asset
+  artifactKey: Guid(c09cc0e1cac22a64e801f85cefac9ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/Cactus (3).asset using Guid(c09cc0e1cac22a64e801f85cefac9ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735a7a42a1d1c49c4c827f281d4fcb00') in 0.001742 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/調色盤/10.asset
+  artifactKey: Guid(876fb3725788de648825f0448294baae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/10.asset using Guid(876fb3725788de648825f0448294baae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3984712c25b4cf5f8004e35940e54312') in 0.001590 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/調色盤/地板.prefab
+  artifactKey: Guid(c52ca8b0706b24a46a299b0edb20e949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/地板.prefab using Guid(c52ca8b0706b24a46a299b0edb20e949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba989868cbcce5f07c4503e3d626f21') in 0.061938 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 14.014806 seconds.
+  path: Assets/調色盤/裝飾.prefab
+  artifactKey: Guid(3f7b0f6b7c1af3c40857559c1b705eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/裝飾.prefab using Guid(3f7b0f6b7c1af3c40857559c1b705eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7aa8e77a587915cf2479b82900a13f5') in 0.014385 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
